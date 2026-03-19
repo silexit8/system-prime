@@ -46,11 +46,12 @@ export default function AboutSection() {
                 <div className="absolute left-0 right-0 h-[1px] bg-primary/40 animate-scan" />
               </div>
               {/* Content */}
-              <div className="absolute inset-0 flex items-center justify-center bg-card/50 backdrop-blur-sm">
-                <div className="text-center">
-                  <div className="text-4xl mb-2">👤</div>
-                  <div className="text-[10px] uppercase tracking-widest text-muted-foreground">[PHOTO]</div>
-                </div>
+              <div className="absolute inset-0 flex items-center justify-center bg-card/50 backdrop-blur-sm overflow-hidden">
+                <img 
+                  src="/profile.png" 
+                  alt="Tuyuabahe Edouard" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>
