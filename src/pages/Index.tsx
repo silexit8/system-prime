@@ -55,6 +55,9 @@ export default function Index() {
             <StatsSection />
             <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
+            <TestimonialsSection />
+            <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+
             <ContactSection />
             <Footer />
           </div>
