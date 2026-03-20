@@ -5,6 +5,7 @@ import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import SkillsSection from '@/components/SkillsSection';
 import ProjectsSection from '@/components/ProjectsSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
 import StatsSection from '@/components/StatsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
@@ -52,6 +53,9 @@ export default function Index() {
             <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
             <StatsSection />
+            <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+
+            <TestimonialsSection />
             <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
             <ContactSection />
