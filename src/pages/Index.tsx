@@ -12,6 +12,7 @@ import CommandTerminal from '@/components/CommandTerminal';
 import CustomCursor from '@/components/CustomCursor';
 import ScrollProgress from '@/components/ScrollProgress';
 import UniverseBackground from '@/components/UniverseBackground';
+import EasterEgg from '@/components/EasterEgg';
 
 export default function Index() {
   const [booted, setBooted] = useState(false);
