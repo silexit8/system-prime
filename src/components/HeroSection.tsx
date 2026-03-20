@@ -105,6 +105,14 @@ export default function HeroSection() {
           >
             [ INITIATE_CONTACT ]
           </button>
+          <a
+            href="/src/assets/cv.pdf"
+            download
+            className="cursor-none terminal-panel px-8 py-3 text-xs uppercase tracking-widest text-foreground hover:bg-primary/10 transition-all duration-200 flex items-center gap-2"
+          >
+            <Download className="w-3 h-3" />
+            [ DOWNLOAD_CV ]
+          </a>
         </motion.div>
 
         {/* System strip */}
