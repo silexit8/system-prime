@@ -1,4 +1,4 @@
-# System Prime - Developer Portfolio
+# System Prime - Dedicated Developers
 
 A futuristic, terminal-inspired portfolio website built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
